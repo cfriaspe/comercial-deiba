@@ -5,7 +5,9 @@
   --whatsapp: #25D366;
 }
 
-/* GENERAL */
+/* ========================================================= */
+/* 🔳 GENERAL */
+/* ========================================================= */
 body {
   font-family: 'Roboto', sans-serif;
   background: linear-gradient(180deg, var(--negro) 0%, var(--naranja) 90%);
@@ -13,9 +15,8 @@ body {
   overflow-x: hidden;
 }
 
-/* NAVBAR */
 /* ========================================================= */
-/* 🚀 NAVBAR COMERCIAL DEIBA SPA */
+/* 🚀 NAVBAR */
 /* ========================================================= */
 .nav-deiba {
   background-color: #0d0d0d;
@@ -40,98 +41,47 @@ body {
   transform: scale(1.05);
 }
 
-/* Botón de WhatsApp en navbar */
-.btn-whatsapp-nav {
-  background-color: #25D366;
-  color: #000;
-  font-weight: 600;
-  border-radius: 8px;
-  padding: 8px 15px;
-  text-decoration: none;
-  transition: 0.3s ease;
-}
-
-.btn-whatsapp-nav:hover {
-  background-color: #1EBE5D;
-  transform: scale(1.05);
-  color: #fff;
-}
-
-/* Responsivo 
-@media (max-width: 992px) {
-  .btn-whatsapp-nav {
-    display: none;
-  }
-  .navbar-nav .nav-link {
-    text-align: center;
-    padding: 10px 0;
-  }
-}*/
-
-
-/* HERO 
-.hero {
-  min-height: 55vh;
-  padding-top: 120px;
-  padding-bottom: 40px;
-  background: linear-gradient(180deg, rgba(0,0,0,0.95) 0%, rgba(245,156,26,0.8) 100%);
-}*/
-
-
 /* ========================================================= */
-/* 🖼️ HERO IMAGEN DE FONDO DEIBA - OPTIMIZADO RESPONSIVO */
+/* 🖼️ HERO */
 /* ========================================================= */
 .hero-img {
   width: 100%;
-  height: 80vh; /* altura base escritorio */
-  background-image: url("img/Generated\ Image\ November\ 08\,\ 2025\ -\ 6_05PM.png");
+  height: 80vh;
+  background-image: url("img/Generated Image November 08, 2025 - 6_05PM.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: contain; /* 🔸 mantiene proporción original de la imagen */
-  background-color: #000; /* color de fondo para rellenar bordes */
-  margin-top: 70px; /* espacio con la navbar */
+  background-size: contain;
+  background-color: #000;
+  margin-top: 70px;
 }
 
-/* 💻 Pantallas grandes */
 @media (min-width: 1200px) {
-  .hero-img {
-    height: 85vh;
-    background-size: contain;
-  }
+  .hero-img { height: 85vh; }
 }
 
-/* 📱 Tablets */
 @media (max-width: 992px) {
-  .hero-img {
-    height: 70vh;
-    background-size: contain;
-  }
+  .hero-img { height: 70vh; }
 }
 
-/* 📱 Celulares */
 @media (max-width: 600px) {
   .hero-img {
     height: 60vh;
-    background-size: contain;
     background-position: center top;
   }
 }
 
-
 /* ========================================================= */
-/* 🎨 TARJETAS DE PRODUCTO / PORTAFOLIO - FORMATO DEIBA       */
+/* 🟧 TARJETAS DE PRODUCTO */
 /* ========================================================= */
 .product {
+  display: flex;
+  flex-direction: column;
   background: rgba(0, 0, 0, 0.92);
-  color: #fff;
-  border-radius: 10px;
-  border: 1px solid transparent;
-  transition: 0.3s;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
-}
-
-.border-naranja {
   border: 1px solid #F59C1A;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+  transition: 0.3s ease;
 }
 
 .product:hover {
@@ -139,18 +89,14 @@ body {
   box-shadow: 0 8px 25px rgba(245,156,26,0.4);
 }
 
-/* ========================================================= */
-/* 🖼️ IMÁGENES DE PRODUCTOS                                   */
-/* ========================================================= */
+/* Imagen */
 .product-img {
-  height: 320px;                     /* Altura visual equilibrada */
   width: 100%;
-  object-fit: cover;                 /* Ajusta sin deformar */
+  height: 320px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
   border-bottom: 1px solid rgba(255,255,255,0.1);
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
   transition: transform 0.4s ease, opacity 0.3s ease;
-  box-shadow: 0 0 25px rgba(0,0,0,0.35);
 }
 
 .product:hover .product-img {
@@ -158,72 +104,68 @@ body {
   opacity: 0.95;
 }
 
+@media (max-width: 768px) {
+  .product-img { height: 220px; }
+}
+
+/* Cuerpo */
+.product-body {
+  flex: 1;
+  padding: 20px;
+}
+
 /* ========================================================= */
-/* 🟡 BOTÓN "VER PRODUCTO" (MERCADO SHOP)                     */
+/* 🟡 BOTÓN "VER PRODUCTO" / AGREGAR AL CARRITO */
+/* ========================================================= */
+.btn-producto {
+  display: block !important;
+  width: 220px !important;
+  margin: 15px auto 20px !important;
+  padding: 12px 20px !important;
+  background-color: #FFD400 !important;
+  color: #000 !important;
+  font-weight: 700 !important;
+  border-radius: 10px !important;
+  border: none !important;
+  text-align: center !important;
+  transition: 0.3s ease !important;
+}
+
+.btn-producto:hover {
+  background-color: #e0b800 !important;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .btn-producto {
+    width: 180px !important;
+    padding: 10px 15px !important;
+  }
+}
+
+/* ========================================================= */
+/* 🟡 BOTÓN AMARILLO GENERAL */
 /* ========================================================= */
 .btn-deiba {
-  background-color: #FFD400;   /* Amarillo corporativo */
-  color: #000;                 /* Texto negro */
+  background-color: #FFD400;
+  color: #000;
   font-weight: 700;
-  border: none;
   border-radius: 10px;
   padding: 12px 18px;
-  transition: 0.3s ease;
-  text-decoration: none;
   text-align: center;
+  display: block;
+  width: 100%;
+  transition: 0.3s ease;
+  border: none;
 }
 
 .btn-deiba:hover {
-  background-color: #e0b800;   /* Amarillo más oscuro */
+  background-color: #e0b800;
   transform: scale(1.05);
 }
 
 /* ========================================================= */
-/* 📱 RESPONSIVE                                              */
-/* ========================================================= */
-@media (max-width: 768px) {
-  .product-img { height: 220px; }
-  .btn-deiba { padding: 10px 16px; font-size: 0.95rem; }
-}
-
-
-/* IMAGEN TARJETA PRODUCTO */
-.product-img {
-  height: 340px;              /* 🔸 Mantén tu altura actual */
-  width: 100%;
-  object-fit: cover;          /* Mantiene la imagen centrada y recortada si es necesario */
-  border-bottom: 1px solid rgba(255,255,255,0.1);
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  transition: transform 0.4s ease, opacity 0.3s ease;
-  box-shadow: 0 0 25px rgba(0,0,0,0.35); /* 💡 Sombra sutil para resaltar la imagen */
-}
-
-.product:hover .product-img {
-  transform: scale(1.02);
-  opacity: 0.95;
-}
-
-
-
-/* BOTÓN WHATSAPP */
-.btn-whatsapp {
-  background-color: #25D366;
-  color: #fff !important;
-  font-weight: 700;
-  border-radius: 10px;
-  padding: 10px 18px;
-  transition: 0.3s;
-  border: none;
-}
-.btn-whatsapp:hover {
-  filter: brightness(1.1);
-  transform: translateY(-2px);
-}
-
-
-/* ========================================================= */
-/* 📬 FORMULARIO DE CONTACTO */
+/* 📬 FORMULARIO */
 /* ========================================================= */
 .contact-section {
   background: linear-gradient(180deg, #1a1a1a 0%, #000 100%);
@@ -238,7 +180,7 @@ body {
 .contact-form input,
 .contact-form textarea {
   width: 100%;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255,255,255,0.1);
   border: 1px solid #F59C1A;
   border-radius: 8px;
   color: #fff;
@@ -250,30 +192,36 @@ body {
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: none;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255,255,255,0.2);
   border-color: #FFD400;
 }
 
-/* Botón ya usa .btn-deiba-yellow */
+.btn-deiba-yellow {
+  background-color: #FFD400;
+  color: #000;
+  font-weight: 700;
+  padding: 12px 20px;
+  border-radius: 10px;
+  width: 100%;
+  border: none;
+  transition: 0.3s ease;
+}
 
-
+.btn-deiba-yellow:hover {
+  background-color: #e0b800;
+  transform: scale(1.05);
+}
 
 /* ========================================================= */
-/* 📍 FOOTER COMERCIAL DEIBA SPA */
+/* 📍 FOOTER */
 /* ========================================================= */
 .footer-deiba {
   background: linear-gradient(180deg, #000 0%, #111 100%);
   color: #fff;
   border-top: 2px solid #F59C1A;
   font-size: 0.95rem;
-  letter-spacing: 0.4px;
 }
 
-.footer-deiba a {
-  text-decoration: none;
-}
-
-/* 🔗 Enlaces de contacto */
 .contact-link {
   color: #FFD400;
   font-weight: 600;
@@ -284,10 +232,7 @@ body {
   color: #fff;
 }
 
-/* 🔗 Redes sociales */
-.social-icons {
-  margin-top: 10px;
-}
+.social-icons { margin-top: 10px; }
 
 .social-link {
   color: #555;
@@ -302,139 +247,13 @@ body {
 }
 
 /* ========================================================= */
-/* 🧭 SOBRE NOSOTROS - CORPORATIVO DEIBA (OPTIMIZADO RESPONSIVE) */
-/* ========================================================= */
-.about-section-pro {
-  position: relative;
-  background: url("img/Generated\ Image\ November\ 08\,\ 2025\ -\ 6_05PM.png") center/contain no-repeat;
-  background-color: #000; /* 🔸 rellena los bordes si sobra espacio */
-  min-height: 85vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  border-top: 2px solid #F59C1A;
-  border-bottom: 2px solid #F59C1A;
-  overflow: hidden;
-}
-
-
-/* 🔸 Capa oscura */
-.about-section-pro .overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.55);
-  z-index: 1;
-}
-
-/* 🔸 Caja de contenido */
-.about-section-pro .content-box {
-  position: relative;
-  z-index: 2;
-  max-width: 800px;
-  background: rgba(0, 0, 0, 0.6);
-  border-left: 4px solid #F59C1A;
-  border-radius: 10px;
-  padding: 40px 30px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-  text-align: center;
-}
-
-.about-section-pro h2 {
-  color: #FFD400;
-  letter-spacing: 1px;
-  font-size: 2.4rem;
-}
-
-.about-section-pro p {
-  line-height: 1.7;
-  font-size: 1.1rem;
-}
-
-/* ========================================================= */
-/* 📱 RESPONSIVE */
-/* ========================================================= */
-@media (max-width: 768px) {
-  .about-section-pro {
-    background-size: contain;      /* 🔸 muestra más fondo */
-    background-position: center top;
-    min-height: 70vh;
-    padding: 70px 0;
-  }
-
-  .about-section-pro .overlay {
-    background: rgba(0, 0, 0, 0.65); /* 🔸 más oscura para mejor contraste */
-  }
-
-  .about-section-pro .content-box {
-    padding: 25px 18px;
-    margin: 0 15px;
-    border-left: 3px solid #F59C1A;
-  }
-
-  .about-section-pro h2 {
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-  }
-
-  .about-section-pro p {
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-}
-
-/* Extra ajuste para pantallas muy pequeñas */
-@media (max-width: 480px) {
-  .about-section-pro {
-    background-size: 110%; /* 🔸 pequeña corrección visual */
-    padding: 80px 0;
-  }
-
-  .about-section-pro .content-box {
-    padding: 20px 15px;
-  }
-}
-
-/* ========================================================= */
-/* 🎯 BOTÓN CORPORATIVO DEIBA - ESTILO AMARILLO */
-/* ========================================================= */
-.btn-deiba-yellow {
-  display: inline-block;
-  background-color: #FFD400; /* Amarillo corporativo */
-  color: #000;
-  font-weight: 700;
-  font-size: 1.1rem;
-  padding: 12px 28px;
-  border-radius: 8px;
-  text-decoration: none;
-  border: none;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 10px rgba(255, 212, 0, 0.3);
-}
-
-.btn-deiba-yellow:hover {
-  background-color: #000;
-  color: #FFD400;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
-  transform: translateY(-2px);
-}
-
-/* Responsivo */
-@media (max-width: 768px) {
-  .btn-deiba-yellow {
-    font-size: 1rem;
-    padding: 10px 22px;
-  }
-}
-
-/* ========================================================= */
-/* 💬 BOTÓN FLOTANTE WHATSAPP - ESTILO DEIBA */
+/* 💬 BOTÓN WHATSAPP FLOTANTE */
 /* ========================================================= */
 .whatsapp-float {
   position: fixed;
   bottom: 25px;
   right: 25px;
-  background-color: #25D366; /* verde WhatsApp */
+  background-color: var(--whatsapp);
   color: #000;
   font-size: 1.9rem;
   width: 60px;
@@ -442,24 +261,19 @@ body {
   border-radius: 50%;
   text-align: center;
   line-height: 60px;
-  box-shadow: 0 0 15px rgba(255, 212, 0, 0.5); /* 🔸 sombra amarilla corporativa */
+  box-shadow: 0 0 15px rgba(255, 212, 0, 0.5);
   transition: all 0.3s ease;
   z-index: 9999;
 }
 
-/* Hover: efecto profesional */
 .whatsapp-float:hover {
   background-color: #1EBE5D;
   color: #fff;
   transform: scale(1.1);
-  box-shadow: 0 0 25px rgba(255, 212, 0, 0.8);
 }
 
-/* 📱 Ajuste en móviles: más pequeño pero igual visible */
 @media (max-width: 768px) {
   .whatsapp-float {
-    bottom: 20px;
-    right: 20px;
     width: 55px;
     height: 55px;
     font-size: 1.7rem;
@@ -467,5 +281,57 @@ body {
   }
 }
 
+/* ========================================================= */
+/* 🟡 BOTONES DEL CARRITO (FINALIZAR / VACIAR) */
+/* ========================================================= */
+
+.acciones-carrito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Botón Finalizar Pedido */
+.boton-finalizar {
+  width: 320px;
+  padding: 14px 20px;
+  background-color: #FFD400;
+  color: #000;
+  font-weight: 700;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.boton-finalizar:hover {
+  background-color: #e0b800;
+  transform: scale(1.05);
+}
+
+/* Botón Vaciar Carrito */
+.boton-vaciar {
+  width: 320px;
+  padding: 12px 20px;
+  font-weight: 700;
+  background-color: #ff4d4d; /* rojo elegante */
+  color: #fff;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  border: none;
+}
+
+.boton-vaciar:hover {
+  background-color: #d93636;
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .boton-finalizar,
+  .boton-vaciar {
+    width: 90%;
+  }
+}
 
 

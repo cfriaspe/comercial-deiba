@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nombre": "Lubricante 15W40 Sintético",
+    "descripcion": "Aceite sintético 15W40 para motores diésel de alto desempeño.",
+    "precio": 24990,
+    "imagen": "img/Lubricantes/Generated Image November 08, 2025 - 5_59PM.png",
+    "link": "https://www.deiba.cl/tu-producto-lubricante-1"
+  },
+  {
+    "id": 2,
+    "nombre": "Lubricante Hidráulico ISO 46",
+    "descripcion": "Lubricante hidráulico para maquinaria y equipos industriales.",
+    "precio": 27990,
+    "imagen": "img/Lubricantes/Generated Image November 08, 2025 - 5_59PM.png",
+    "link": "https://www.deiba.cl/tu-producto-lubricante-2"
+  },
+  {
+    "id": 3,
+    "nombre": "Lubricante de prueba 01",
+    "descripcion": "Probando carga de productos.",
+    "precio": 99990,
+    "imagen": "img/Lubricantes/Generated Image November 08, 2025 - 5_59PM.png",
+    "link": "https://www.deiba.cl/tu-producto-lubricante-2"
+  }
+]

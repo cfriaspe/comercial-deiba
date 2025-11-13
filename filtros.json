@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nombre": "Filtro Hidráulico HF2025",
+    "descripcion": "Filtro hidráulico de alta eficiencia para maquinaria pesada. Compatible con cargadores frontales, retroexcavadoras y excavadoras.",
+    "precio": 15990,
+    "imagen": "img/Filtros/Generated Image November 08, 2025 - 5_17PM.png",
+    "link": "https://www.deiba.cl/_Container_MSH-2120437701-Filtros"
+  },
+  {
+    "id": 2,
+    "nombre": "Filtro de Aceite Cummins",
+    "descripcion": "Filtro de aceite diseñado para motores diésel Cummins. Alto rendimiento y larga vida útil.",
+    "precio": 12990,
+    "imagen": "img/Filtros/Generated Image November 08, 2025 - 5_17PM.png",
+    "link": "https://www.deiba.cl/_Container_MSH-2120437701-Filtros"
+  },
+  {
+    "id": 3,
+    "nombre": "Filtro de Aire Industrial FA-550",
+    "descripcion": "Filtro de aire de doble capa para ambientes de trabajo exigentes. Evita ingreso de polvo y partículas.",
+    "precio": 18990,
+    "imagen": "img/Filtros/Generated Image November 08, 2025 - 5_17PM.png",
+    "link": "https://www.deiba.cl/_Container_MSH-2120437701-Filtros"
+  }
+]
