@@ -113,18 +113,31 @@ document.addEventListener("DOMContentLoaded", function () {
 
             <div class="product-body">
               <h5 class="fw-bold">${prod.nombre}</h5>
-              <p class="card-text">${prod.descripcion}</p>
+              <p>${prod.descripcion}</p>
               <p class="fw-bold">$ ${prod.precio.toLocaleString("es-CL")}</p>
+
+               ${prod.oferta ? `
+                  <div class="promo-box mt-2">
+                    <p class="promo-title">✨ ¡Aprovecha nuestra promoción especial!</p>
+                    <p class="promo-text">
+                      Agrega 2 o más unidades de este producto a tu carrito y obtén un descuento exclusivo.
+                      <br><span class="promo-footnote">*El descuento se aplicará automáticamente y se verá reflejado en tu carrito.</span>
+                    </p>
+                  </div>
+              ` : ''}
             </div>
 
             <button class="btn-producto"
-              onclick="agregarAlCarrito(${prod.id}, '${prod.nombre}', ${prod.precio}, '${prod.imagen}')">
+              onclick="agregarAlCarrito(${prod.id}, '${prod.nombre}', ${prod.precio}, '${prod.imagen}', ${prod.oferta}, ${prod.descuento || 0})">
               Agregar al carrito 🛒
             </button>
 
           </div>
         `;
+
+
         contenedor.appendChild(col);
+
       });
     })
     .catch(error => {
@@ -137,62 +150,44 @@ document.addEventListener("DOMContentLoaded", function () {
 <!-- 🛒 CARRITO -->
 <!-- ========================================================= -->
 <script>
-function agregarAlCarrito(id, nombre, precio, imagen) {
+function agregarAlCarrito(id, nombre, precio, imagen, oferta = false, descuento = 0) {
+
   let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+
   let existente = carrito.find(item => item.id === id);
 
   if (existente) {
-    existente.cantidad++;
+    existente.cantidad += 1;
   } else {
-    carrito.push({ id, nombre, precio, imagen, cantidad: 1 });
+    carrito.push({
+      id,
+      nombre,
+      precio,
+      imagen,
+      cantidad: 1,
+      oferta: oferta,
+      descuento: descuento   // 👈 ahora sí queda guardado el % en el carrito
+    });
   }
 
   localStorage.setItem("carrito", JSON.stringify(carrito));
+  actualizarContadorCarrito();
   alert("Producto agregado al carrito ✔️");
 }
+
 </script>
 
 <script>
-  // 🔢 Actualiza el contador del carrito en el ícono del navbar
-  function actualizarContadorCarrito() {
-    let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
-    let total = carrito.reduce((s, p) => s + p.cantidad, 0);
+function actualizarContadorCarrito() {
+  let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+  let total = carrito.reduce((s, p) => s + p.cantidad, 0);
 
-    const badge = document.getElementById("contadorCarrito");
-    if (badge) badge.innerText = total;
-  }
+  const badge = document.getElementById("contadorCarrito");
+  if (badge) badge.innerText = total;
+}
 
-  // 🛒 Agregar producto al carrito
-  function agregarAlCarrito(id, nombre, precio, imagen) {
-    let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
-
-    let existente = carrito.find(item => item.id === id);
-
-    if (existente) {
-      existente.cantidad += 1;
-    } else {
-      carrito.push({
-        id: id,
-        nombre: nombre,
-        precio: precio,
-        imagen: imagen,
-        cantidad: 1
-      });
-    }
-
-    localStorage.setItem("carrito", JSON.stringify(carrito));
-
-    // 🔥 ACTUALIZA EL CONTADOR EN TIEMPO REAL
-    actualizarContadorCarrito();
-
-    alert("Producto agregado al carrito ✔️");
-  }
-
-  // ⏯️ Al cargar la página, sincronizamos el contador con lo que haya en localStorage
-  document.addEventListener("DOMContentLoaded", actualizarContadorCarrito);
+document.addEventListener("DOMContentLoaded", actualizarContadorCarrito);
 </script>
-
 
 </body>
 </html>
-

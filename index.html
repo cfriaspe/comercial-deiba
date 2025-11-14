@@ -64,17 +64,15 @@
 <!-- HERO -->
 <header class="hero-img"></header>
 
-<!-- PRODUCTOS DESTACADOS -->
+<!-- CATALOGO -->
 <section id="productos" class="py-5 text-center text-white">
   <div class="container">
-    <h2 class="fw-bold mb-4">Productos Destacados</h2>
-
+    <h2 class="fw-bold mb-4">Catalogo</h2>
     <div class="row g-4">
-
       <!-- Filtros -->
       <div class="col-md-4">
         <div class="card product h-100 border-naranja overflow-hidden">
-          <img src="img/Filtros/Generated Image November 08, 2025 - 5_17PM.png" class="product-img">
+          <img src="img/Filtros/Generated Image November 14, 2025 - 10_48AM.png" class="product-img">
 
           <div class="p-3 text-start">
             <h5 class="fw-bold">Filtros</h5>
@@ -89,7 +87,7 @@
       <div class="col-md-4">
         <div class="card product h-100 border-naranja overflow-hidden">
 
-          <img src="img/Lubricantes/Generated Image November 08, 2025 - 5_59PM.png" class="product-img">
+          <img src="img/Lubricantes/Generated Image November 14, 2025 - 10_39AM.png" class="product-img">
 
           <div class="p-3 text-start">
             <h5 class="fw-bold">Lubricantes</h5>
@@ -103,7 +101,7 @@
       <!-- Repuestos -->
       <div class="col-md-4">
         <div class="card product h-100 border-naranja overflow-hidden">
-          <img src="img/Repuestos/Portada Repuestos.png" class="product-img">
+          <img src="img/Repuestos/Generated Image November 14, 2025 - 11_21AM.png" class="product-img">
 
           <div class="p-3 text-start">
             <h5 class="fw-bold">Repuestos</h5>
@@ -170,30 +168,30 @@
   }
 
   // 🛒 Agregar producto al carrito
-  function agregarAlCarrito(id, nombre, precio, imagen) {
-    let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+function agregarAlCarrito(id, nombre, precio, imagen, oferta = false, descuento = 0) {
 
-    let existente = carrito.find(item => item.id === id);
+  let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
-    if (existente) {
-      existente.cantidad += 1;
-    } else {
-      carrito.push({
-        id: id,
-        nombre: nombre,
-        precio: precio,
-        imagen: imagen,
-        cantidad: 1
-      });
-    }
+  let existente = carrito.find(item => item.id === id);
 
-    localStorage.setItem("carrito", JSON.stringify(carrito));
-
-    // 🔥 ACTUALIZA EL CONTADOR EN TIEMPO REAL
-    actualizarContadorCarrito();
-
-    alert("Producto agregado al carrito ✔️");
+  if (existente) {
+    existente.cantidad += 1;
+  } else {
+    carrito.push({
+      id,
+      nombre,
+      precio,
+      imagen,
+      cantidad: 1,
+      oferta: oferta,
+      descuento: descuento   // 👈 ahora sí queda guardado el % en el carrito
+    });
   }
+
+  localStorage.setItem("carrito", JSON.stringify(carrito));
+  actualizarContadorCarrito();
+  alert("Producto agregado al carrito ✔️");
+}
 
   // ⏯️ Al cargar la página, sincronizamos el contador con lo que haya en localStorage
   document.addEventListener("DOMContentLoaded", actualizarContadorCarrito);

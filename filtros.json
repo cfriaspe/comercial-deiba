@@ -1,26 +1,58 @@
 [
   {
-    "id": 1,
-    "nombre": "Filtro Hidráulico HF2025",
-    "descripcion": "Filtro hidráulico de alta eficiencia para maquinaria pesada. Compatible con cargadores frontales, retroexcavadoras y excavadoras.",
-    "precio": 15990,
-    "imagen": "img/Filtros/Generated Image November 08, 2025 - 5_17PM.png",
-    "link": "https://www.deiba.cl/_Container_MSH-2120437701-Filtros"
+    "id": 1001,
+    "nombre": "Filtro Combustible Fleetguard Ff5067 Cummins.",
+    "descripcion": "Filtro De Combustible Para Motor Marca Cummins Elimina, Captura Y Retiene Las Particulas Finas Que Pueden Danar El Motor, Prolongando Asi Su Vida Util",
+    "precio": 20890,
+    "imagen": "img/Filtros/Filtro Combustible Fleetguard Ff5067.jpg",
+    "oferta": true,
+    "descuento": 10
   },
   {
-    "id": 2,
-    "nombre": "Filtro de Aceite Cummins",
-    "descripcion": "Filtro de aceite diseñado para motores diésel Cummins. Alto rendimiento y larga vida útil.",
-    "precio": 12990,
-    "imagen": "img/Filtros/Generated Image November 08, 2025 - 5_17PM.png",
-    "link": "https://www.deiba.cl/_Container_MSH-2120437701-Filtros"
+    "id": 1002,
+    "nombre": "Filtro Hidraulico Fleetguard Hf6337 Cummins.",
+    "descripcion": "Filtro Hidráulico Fleetguard HF6337 Cummins está diseñado para ofrecer una filtración superior en sistemas hidráulicos de alto rendimiento. Su construcción robusta y su medio filtrante de alta eficiencia permiten retener partículas finas y contaminantes, protegiendo los componentes internos del sistema y prolongando su vida útil.Ideal para maquinaria pesada, equipos industriales, aplicaciones agrícolas y motores Cummins que requieren un filtrado confiable bajo condiciones de trabajo exigentes.Un filtro resistente, preciso y diseñado para mantener tu sistema hidráulico funcionando con máxima eficiencia y seguridad.",
+    "precio": 22110,
+    "imagen": "img/Filtros/Filtro Hidraulico Fleetguard Hf6337.jpg",
+    "link": "",
+    "oferta": true,
+    "descuento": 10
   },
   {
-    "id": 3,
-    "nombre": "Filtro de Aire Industrial FA-550",
-    "descripcion": "Filtro de aire de doble capa para ambientes de trabajo exigentes. Evita ingreso de polvo y partículas.",
-    "precio": 18990,
-    "imagen": "img/Filtros/Generated Image November 08, 2025 - 5_17PM.png",
-    "link": "https://www.deiba.cl/_Container_MSH-2120437701-Filtros"
+    "id": 1003,
+    "nombre": "Filtro Aire Fleetguard Af350K Motor Cummins",
+    "descripcion": "Filtro Aire Fleetguard, Garantiza Un Sellado Adecuado Y Evita Fugas Para Evitar Que Los Contaminantes Del Aire Lleguen A La Camara De Combustion.",
+    "precio": 41170,
+    "imagen": "img/Filtros/Filtro Aire 1.jpg",
+    "link": "",
+    "oferta": true,
+    "descuento":10
+  },
+  {
+    "id": 1004,
+    "nombre": "Filtro De Aire Fleetguard Af26114 Para Motor Marca Cummins",
+    "descripcion": "Filtro de Aire Fleetguard AF26114 para Motor Cummins garantiza una filtración eficiente y confiable, protegiendo el motor contra polvo, suciedad y partículas que pueden reducir su rendimiento. Su diseño de alta capacidad permite un flujo de aire óptimo, asegurando una combustión más limpia y un funcionamiento más eficiente.Recomendado para motores Cummins en aplicaciones de transporte, maquinaria pesada, equipos industriales y uso continuo en condiciones exigentes.Un filtro durable, preciso y diseñado para alargar la vida útil del motor manteniendo un rendimiento superior.",
+    "precio": 38340,
+    "imagen": "img/Filtros/Filtro 2.jpg",
+    "link": "",
+    "oferta": false
+  },
+  {
+    "id": 1005,
+    "nombre": "Filtro Combustible Fleetguard Ff5825Nn Motor Cummins",
+    "descripcion": "El filtro de combustible roscado Fleetguard® FF5776 ofrece un rendimiento superior utilizando tecnología de medios comprobada, eliminando contaminantes dañinos. Los filtros de combustible Fleetguard garantizan una protección óptima del sistema de combustible para cumplir o superar las especificaciones del OEM.",
+    "precio": 76020,
+    "imagen": "img/Filtros/FF5825NN.jpg",
+    "link": "",
+    "oferta": false
+  },
+  {
+    "id": 1006,
+    "nombre": "Filtro Combustible Fleetguard Ff5776 Cummins",
+    "descripcion": "El filtro de combustible roscado Fleetguard FF5825NN ofrece un rendimiento superior utilizando tecnología de medios comprobada, eliminando contaminantes dañinos. Los filtros de combustible Fleetguard garantizan una protección óptima del sistema de combustible para cumplir o superar las especificaciones del OEM.",
+    "precio": 91210,
+    "imagen": "img/Filtros/FF5776.jpg",
+    "link": "",
+    "oferta": false
   }
 ]

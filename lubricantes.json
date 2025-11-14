@@ -1,26 +1,62 @@
 [
   {
-    "id": 1,
-    "nombre": "Lubricante 15W40 Sintético",
-    "descripcion": "Aceite sintético 15W40 para motores diésel de alto desempeño.",
-    "precio": 24990,
-    "imagen": "img/Lubricantes/Generated Image November 08, 2025 - 5_59PM.png",
-    "link": "https://www.deiba.cl/tu-producto-lubricante-1"
+    "id": 2001,
+    "nombre": "15W40 Aceite Motor Rubia Tir 7400 20Lt Total",
+    "descripcion": "Aceite Para Motores Diesel De Muy Altas Prestaciones Adaptado A Las Severas Limitaciones Tecnicas De Los Motores De Bajas Emisiones Accionados Por Dispositivo EgrAdaptado A Las Condiciones De Servicio Mas Severas: Transporte, Construccion, TractoresCumple Con Las Tecnologias De Motor Euro 2, Euro 3 Y Euro 4 (Excepto Los Motores Euro 4 Man Y Daf)",
+    "precio": 79900,
+    "imagen": "img/Lubricantes/Total7400.jpg",
+    "link": "",
+    "oferta": false,
+    "descuento": 0
   },
   {
-    "id": 2,
-    "nombre": "Lubricante Hidráulico ISO 46",
-    "descripcion": "Lubricante hidráulico para maquinaria y equipos industriales.",
-    "precio": 27990,
-    "imagen": "img/Lubricantes/Generated Image November 08, 2025 - 5_59PM.png",
-    "link": "https://www.deiba.cl/tu-producto-lubricante-2"
+    "id": 2002,
+    "nombre": "10W40 Aceite Motor Super 2000 4Lt Mobil",
+    "descripcion": "Mobil Super 2000 X1 Formula P 10W40 Proporciona Excelente Proteccion Contra El Desgaste Excelente Limpieza Del Motor Excelente Proteccion A Altas Temperaturas Excelente Proteccion A Temperaturas Friasaplicacioneslos Productos Mobil Super 2000 Estan Formulados Para Brindarle La Confianza De Que Su Motor Esta Recibiendo Una Proteccion Que Va Mucho Mas Alla De La Que Los Aceites Convencionales Pueden Proporcionar.",
+    "precio": 33700,
+    "imagen": "img/Lubricantes/Mobilsuper2000.jpg",
+    "link": "",
+    "oferta": true,
+    "descuento": 10
   },
   {
-    "id": 3,
-    "nombre": "Lubricante de prueba 01",
-    "descripcion": "Probando carga de productos.",
-    "precio": 99990,
-    "imagen": "img/Lubricantes/Generated Image November 08, 2025 - 5_59PM.png",
-    "link": "https://www.deiba.cl/tu-producto-lubricante-2"
+    "id": 2003,
+    "nombre": "10W40 Aceite Motor Tecno 4Lt Lubrax",
+    "descripcion": "Este Aceite Lubrax 10W40 Es Especialmente Recomendado Para Vehiculos Que Requieren Un Nivel De Viscosidad Sae 10W40.Su Capacidad De Adaptarse A Diferentes Condiciones De Temperatura Y Presion Garantiza Una Lubricacion Optima En Todo Momento, Incluso En Condiciones Extremas. Ademas, Este Aceite Lubrax Tecno Cumple Con Los Estandares De Calidad Mas Exigentes Y Esta Fabricado En Brasil, Pais Reconocido Por Su Experiencia En La Industria Automotriz.",
+    "precio": 35600,
+    "imagen": "img/Lubricantes/Lubrax1040.jpg",
+    "link": "",
+    "oferta": true,
+    "descuento": 10
+  },
+  {
+    "id": 2004,
+    "nombre": "LTT20W50-4400 ACEITE MOTOR TOTAL",
+    "descripcion": "TOTAL 20W50-4400 es un lubricante de alto desempeño diseñado para proteger tu motor incluso en las condiciones más exigentes. Su fórmula avanzada combina bases de calidad premium y aditivos de última tecnología, ofreciendo una excelente protección contra el desgaste, la corrosión y la acumulación de depósitos.Gracias a su viscosidad 20W50, mantiene una película lubricante estable a altas temperaturas, asegurando un funcionamiento suave y confiable en motores que trabajan en climas cálidos o bajo uso intenso.Un aceite resistente, confiable y pensado para alargar la vida útil de tu motor.",
+    "precio": 60900,
+    "imagen": "img/Lubricantes/TOTALLTT20W50-4400.JPG",
+    "link": "",
+    "oferta": false,
+    "descuento": 10
+  },
+  {
+    "id": 2005,
+    "nombre": "20W50 EXTRA TURBO 4 LITROS",
+    "descripcion": "Lubrax Extra Turbo es un aceite multigrado de alto rendimiento, formulado con bases Grupo II para ofrecer una protección superior en motores diésel de alta potencia sometidos a trabajo severo. Cumple con los requisitos de los principales fabricantes de motores, asegurando confiabilidad y desempeño.Recomendado para motores diésel de 4 tiempos, ya sean de aspiración natural, turboalimentados o sobrealimentados, presentes en:  Camiones y buses Vehículos de transporte Equipos de construcción y mineríaMaquinaria agrícola Motores marítimos y estacionario Un lubricante resistente, estable y diseñado para mantener tu motor protegido incluso en condiciones extremas de operación.",
+    "precio": 23500,
+    "imagen": "img/Lubricantes/LUBRAX20W504LTS.JPG",
+    "link": "",
+    "oferta": false,
+    "descuento": 10
+  },
+   {
+    "id": 2006,
+    "nombre": "15W40 Aceite Motor Delvac Mx",
+    "descripcion": "Mobil Delvac MX 15W40 es un aceite de motor diésel de alto rendimiento diseñado para brindar una protección excepcional en motores de trabajo pesado. Su fórmula avanzada ayuda a prolongar la vida útil del motor, incluso en condiciones de operación severas Ofrece excelente control de depósitos, protección contra el desgaste y estabilidad de viscosidad, asegurando un funcionamiento limpio y eficiente. Ideal para motores diésel modernos y de generaciones anteriores, ya sean de transporte, carga, maquinaria o flotas comerciales..",
+    "precio": 80740,
+    "imagen": "img/Lubricantes/mobil delvac.jpg",
+    "link": "",
+    "oferta": false,
+    "descuento": 10
   }
 ]
