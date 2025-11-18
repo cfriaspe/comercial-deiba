@@ -152,7 +152,7 @@
     "nombre": "Aceite Hidráulico AW68 Total 19L",
     "descripcion": "Aceite Hidráulico AW68 Total 19L es un lubricante formulado para sistemas hidráulicos de alta exigencia. Ofrece excelente estabilidad térmica, protección contra el desgaste y un desempeño confiable en maquinaria industrial, equipos de construcción y sistemas hidráulicos sometidos a altas temperaturas y cargas severas.",
     "precio": 53267,
-    "imagen": "img/lubricantes/aceite-hidraulico-aw68-total-19l.jpg",
+    "imagen": "img/Lubricantes/aceite-hidraulico-aw68-total-19l.jpg",
     "link": "",
     "categoria": "lubricantes",
     "oferta": true,
@@ -413,3 +413,4 @@
     "stock": 100
   }
 ]
+
