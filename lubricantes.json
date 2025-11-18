@@ -174,7 +174,7 @@
     "nombre": "Aceite 80W90 GL-4 Federal 1 Lts",
     "descripcion": "Aceite 80W90 GL-4 Federal 1 Lts es un lubricante de alto rendimiento formulado para transmisiones mecánicas que requieren protección contra desgaste, presión extrema y fricción. Su viscosidad 80W90 garantiza una película lubricante estable tanto en bajas como altas temperaturas, asegurando un funcionamiento suave y prolongando la vida útil de los componentes.",
     "precio": 4750,
-    "imagen": "img/Lubricantes/aceite-80w90-gl-4-federal-1-lts.jpg",
+    "imagen":"img/Lubricantes/aceite-80w90-gl-4-federal-1-lts.jpg",
     "link": "",
     "categoria": "lubricantes",
     "oferta": true,
@@ -413,4 +413,3 @@
     "stock": 100
   }
 ]
-
