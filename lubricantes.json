@@ -409,7 +409,8 @@
   "link": "",
   "categoria": "lubricantes",
   "oferta": true,
-  "descuento": 10
+  "descuento": 10,
+  "stock":100
 }
 
 
@@ -429,4 +430,3 @@
 
 
 ]
-
