@@ -4,7 +4,7 @@
     "nombre": "15W40 Aceite Motor Rubia Tir 7400 20Lt Total",
     "descripcion": "Aceite Para Motores Diesel De Muy Altas Prestaciones Adaptado A Las Severas Limitaciones Tecnicas De Los Motores De Bajas Emisiones Accionados Por Dispositivo EgrAdaptado A Las Condiciones De Servicio Mas Severas: Transporte, Construccion, TractoresCumple Con Las Tecnologias De Motor Euro 2, Euro 3 Y Euro 4 (Excepto Los Motores Euro 4 Man Y Daf)",
     "precio": 79900,
-    "imagen":"img/Lubricantes/total7400.jpg",
+    "imagen":"img/Lubricantes/15W40RubiaTir740020LtTotal.jpg",
     "link": "",
     "oferta": true,
     "descuento": 0
@@ -14,7 +14,7 @@
     "nombre": "10W40 Aceite Motor Super 2000 4Lt Mobil",
     "descripcion": "Mobil Super 2000 X1 Formula P 10W40 Proporciona Excelente Proteccion Contra El Desgaste Excelente Limpieza Del Motor Excelente Proteccion A Altas Temperaturas Excelente Proteccion A Temperaturas Friasaplicacioneslos Productos Mobil Super 2000 Estan Formulados Para Brindarle La Confianza De Que Su Motor Esta Recibiendo Una Proteccion Que Va Mucho Mas Alla De La Que Los Aceites Convencionales Pueden Proporcionar.",
     "precio": 33700,
-    "imagen": "img/Lubricantes/mobilsuper2000.jpg",
+    "imagen": "img/Lubricantes/10W40Super20004LtMobil.jpg",
     "link": "",
     "oferta": false,
     "descuento": 10
@@ -24,7 +24,7 @@
     "nombre": "10W40 Aceite Motor Tecno 4Lt Lubrax",
     "descripcion": "Este Aceite Lubrax 10W40 Es Especialmente Recomendado Para Vehiculos Que Requieren Un Nivel De Viscosidad Sae 10W40.Su Capacidad De Adaptarse A Diferentes Condiciones De Temperatura Y Presion Garantiza Una Lubricacion Optima En Todo Momento, Incluso En Condiciones Extremas. Ademas, Este Aceite Lubrax Tecno Cumple Con Los Estandares De Calidad Mas Exigentes Y Esta Fabricado En Brasil, Pais Reconocido Por Su Experiencia En La Industria Automotriz.",
     "precio": 35600,
-    "imagen": "img/Lubricantes/lubrax1040.jpg",
+    "imagen": "img/Lubricantes/10W40Tecno4LtLubrax.jpg",
     "link": "",
     "oferta": true,
     "descuento": 10
@@ -34,17 +34,17 @@
     "nombre": "LTT20W50-4400 ACEITE MOTOR TOTAL",
     "descripcion": "TOTAL 20W50-4400 es un lubricante de alto desempeño diseñado para proteger tu motor incluso en las condiciones más exigentes. Su fórmula avanzada combina bases de calidad premium y aditivos de última tecnología, ofreciendo una excelente protección contra el desgaste, la corrosión y la acumulación de depósitos.Gracias a su viscosidad 20W50, mantiene una película lubricante estable a altas temperaturas, asegurando un funcionamiento suave y confiable en motores que trabajan en climas cálidos o bajo uso intenso.Un aceite resistente, confiable y pensado para alargar la vida útil de tu motor.",
     "precio": 60900,
-    "imagen": "img/Lubricantes/totalltt20w50-4400.jpg",
+    "imagen": "img/Lubricantes/LTT20W50-4400TOTAL.jpg",
     "link": "",
     "oferta": false,
     "descuento": 10
   },
   {
     "id": 2005,
-    "nombre": "20W50 EXTRA TURBO 4 LITROS",
+    "nombre": "20W50 LUBRAX EXTRA TURBO 4 LITROS",
     "descripcion": "Lubrax Extra Turbo es un aceite multigrado de alto rendimiento, formulado con bases Grupo II para ofrecer una protección superior en motores diésel de alta potencia sometidos a trabajo severo. Cumple con los requisitos de los principales fabricantes de motores, asegurando confiabilidad y desempeño.Recomendado para motores diésel de 4 tiempos, ya sean de aspiración natural, turboalimentados o sobrealimentados, presentes en:  Camiones y buses Vehículos de transporte Equipos de construcción y mineríaMaquinaria agrícola Motores marítimos y estacionario Un lubricante resistente, estable y diseñado para mantener tu motor protegido incluso en condiciones extremas de operación.",
     "precio": 23500,
-    "imagen": "img/Lubricantes/lubrax20w504lts.jpg",
+    "imagen": "img/Lubricantes/LUBRAX0008.jpg",
     "link": "",
     "oferta": false,
     "descuento": 10
