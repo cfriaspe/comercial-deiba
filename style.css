@@ -1,0 +1,550 @@
+:root {
+  --negro: #000000;
+  --naranja: #F59C1A;
+  --amarillo: #FFD400;
+  --whatsapp: #25D366;
+}
+
+/* ========================================================= */
+/* 🔳 GENERAL */
+/* ========================================================= */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(180deg, var(--negro) 0%, var(--naranja) 90%);
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* ========================================================= */
+/* 🚀 NAVBAR */
+/* ========================================================= */
+.nav-deiba {
+  background-color: #0d0d0d;
+  border-bottom: 2px solid #F59C1A;
+  padding: 12px 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.logo-deiba {
+  height: 60px;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  margin: 0 15px;
+  transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #FFD400 !important;
+  transform: scale(1.05);
+}
+
+/* ========================================================= */
+/* 🖼️ HERO */
+/* ========================================================= */
+.hero-img {
+  width: 100%;
+  height: 80vh;
+  background-image: url("img/Generated Image November 08, 2025 - 6_05PM.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-color: #000;
+  margin-top: 70px;
+}
+
+@media (min-width: 1200px) {
+  .hero-img { height: 85vh; }
+}
+
+@media (max-width: 992px) {
+  .hero-img { height: 70vh; }
+}
+
+@media (max-width: 600px) {
+  .hero-img {
+    height: 60vh;
+    background-position: center top;
+  }
+}
+
+
+/* ========================================================= */
+/* 🟡 BOTÓN "VER PRODUCTO" / AGREGAR AL CARRITO */
+/* ========================================================= */
+.btn-producto {
+  display: block !important;
+  width: 220px !important;
+  margin: 15px auto 20px !important;
+  padding: 12px 20px !important;
+  background-color: #FFD400 !important;
+  color: #000 !important;
+  font-weight: 700 !important;
+  border-radius: 10px !important;
+  border: none !important;
+  text-align: center !important;
+  transition: 0.3s ease !important;
+}
+
+.btn-producto:hover {
+  background-color: #e0b800 !important;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .btn-producto {
+    width: 180px !important;
+    padding: 10px 15px !important;
+  }
+}
+
+/* ========================================================= */
+/* 🟧 TARJETAS DE PRODUCTO (CLEAN + RESPONSIVE) */
+/* ========================================================= */
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.92);
+  border: 1px solid #F59C1A;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(245,156,26,0.4);
+}
+
+/* 📸 Imagen de la tarjeta */
+#productos .product-img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;  /* No recorta */
+  object-position: center;
+  background: #000;     /* Rellena el espacio */
+  border-radius: 10px 10px 0 0;
+}
+
+
+.product:hover .product-img {
+  transform: scale(1.02);
+  opacity: 0.95;
+}
+
+/* 📦 Cuerpo del contenido */
+.product .p-3 {
+  flex-grow: 1;
+  padding-bottom: 0;
+}
+
+.product-body {
+  flex: 1;
+  padding: 20px;
+}
+
+/* 🟡 Botón dentro de la tarjeta */
+.btn-producto {
+  display: block;
+  width: 200px;
+  margin: 15px auto 20px auto;
+  background-color: #FFD400;
+  color: #000;
+  font-weight: 700;
+  padding: 12px 18px;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.btn-producto:hover {
+  background-color: #e0b800;
+  transform: scale(1.05);
+}
+
+/* ========================================================= */
+/* 📱 RESPONSIVE – MÓVIL (max 480px) */
+/* ========================================================= */
+
+@media (max-width: 480px) {
+
+  #productos .product-img {
+    height: 150px;
+    object-position: center 55%;   /* mejor encuadre */
+    margin-top: 15px;
+  }
+
+  .btn-producto {
+    width: 160px;
+    font-size: 0.9rem;
+    margin-top: 12px;
+  }
+
+  #productos .card.product {
+    padding-bottom: 15px;
+  }
+}
+
+
+/* ========================================================= */
+/* 🟡 BOTÓN AMARILLO GENERAL */
+/* ========================================================= */
+.btn-deiba {
+  background-color: #FFD400;
+  color: #000;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 12px 18px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  transition: 0.3s ease;
+  border: none;
+}
+
+.btn-deiba:hover {
+  background-color: #e0b800;
+  transform: scale(1.05);
+}
+
+/* ========================================================= */
+/* 📬 FORMULARIO */
+/* ========================================================= */
+.contact-section {
+  background: linear-gradient(180deg, #1a1a1a 0%, #000 100%);
+  border-top: 2px solid #F59C1A;
+  border-bottom: 2px solid #F59C1A;
+}
+
+.contact-form {
+  max-width: 500px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid #F59C1A;
+  border-radius: 8px;
+  color: #fff;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  transition: 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  background: rgba(255,255,255,0.2);
+  border-color: #FFD400;
+}
+
+.btn-deiba-yellow {
+  background-color: #FFD400;
+  color: #000;
+  font-weight: 700;
+  padding: 12px 20px;
+  border-radius: 10px;
+  width: 100%;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.btn-deiba-yellow:hover {
+  background-color: #e0b800;
+  transform: scale(1.05);
+}
+
+/* ========================================================= */
+/* 📍 FOOTER */
+/* ========================================================= */
+.footer-deiba {
+  background: linear-gradient(180deg, #000 0%, #111 100%);
+  color: #fff;
+  border-top: 2px solid #F59C1A;
+  font-size: 0.95rem;
+}
+
+.contact-link {
+  color: #FFD400;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #fff;
+}
+
+.social-icons { margin-top: 10px; }
+
+.social-link {
+  color: #555;
+  font-size: 1.8rem;
+  margin: 0 10px;
+  transition: 0.3s ease;
+}
+
+.social-link:hover {
+  color: #FFD400;
+  transform: scale(1.2);
+}
+
+/* ========================================================= */
+/* 💬 BOTÓN WHATSAPP FLOTANTE */
+/* ========================================================= */
+.whatsapp-float {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background-color: var(--whatsapp);
+  color: #000;
+  font-size: 1.9rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  box-shadow: 0 0 15px rgba(255, 212, 0, 0.5);
+  transition: all 0.3s ease;
+  z-index: 9999;
+}
+
+.whatsapp-float:hover {
+  background-color: #1EBE5D;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .whatsapp-float {
+    width: 55px;
+    height: 55px;
+    font-size: 1.7rem;
+    line-height: 55px;
+  }
+}
+
+/* ========================================================= */
+/* 🟡 BOTONES DEL CARRITO (FINALIZAR / VACIAR) */
+/* ========================================================= */
+
+.acciones-carrito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Botón Finalizar Pedido */
+.boton-finalizar {
+  width: 320px;
+  padding: 14px 20px;
+  background-color: #FFD400;
+  color: #000;
+  font-weight: 700;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.boton-finalizar:hover {
+  background-color: #e0b800;
+  transform: scale(1.05);
+}
+
+/* Botón Vaciar Carrito */
+.boton-vaciar {
+  width: 320px;
+  padding: 12px 20px;
+  font-weight: 700;
+  background-color: #ff4d4d; /* rojo elegante */
+  color: #fff;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  border: none;
+}
+
+.boton-vaciar:hover {
+  background-color: #d93636;
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .boton-finalizar,
+  .boton-vaciar {
+    width: 90%;
+  }
+}
+
+/* ========================================= */
+/* 🛠 FIX TABLA DEL CARRITO                  */
+/* ========================================= */
+
+/* Contenedor de la tabla */
+.table-responsive {
+  width: 100%;
+  overflow-x: visible;      /* 🔥 sin barra interna */
+}
+
+/* Tabla */
+.table {
+  width: 100%;
+  table-layout: auto;       /* deja que las columnas se ajusten solas */
+}
+
+/* Celdas generales */
+.table td,
+.table th {
+  white-space: nowrap;      /* evita que todo se rompa en mil líneas */
+  vertical-align: middle;
+}
+
+/* 🔥 Primera columna (producto) SÍ puede hacer salto de línea */
+.table td:first-child,
+.table th:first-child {
+  white-space: normal;
+}
+
+/* =============================== */
+/* 📦 PRODUCTO: imagen + texto     */
+/* =============================== */
+
+.td-producto {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.td-producto img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  border-radius: 8px;
+  flex-shrink: 0;          /* la imagen no se aplasta */
+}
+
+.td-producto .info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+/* ========================================================= */
+/* 📱 CARRITO EN TARJETAS PARA MOVIL (<600px) */
+/* ========================================================= */
+
+@media (max-width: 600px) {
+
+  /* Ocultar encabezados de tabla */
+  table thead {
+    display: none;
+  }
+
+  /* Cada fila se convierte en tarjeta */
+  table tr {
+    display: block;
+    background: rgba(0,0,0,0.85);
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #F59C1A;
+  }
+
+  table td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none !important;
+    padding: 8px 5px;
+    font-size: 0.9rem;
+    width: 100%;
+    white-space: normal;
+  }
+
+  /* Producto arriba */
+  td:first-child {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .td-producto {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .td-producto img {
+    width: 100px;
+    height: auto;
+  }
+
+  .td-producto strong {
+    font-size: 1rem;
+  }
+
+  /* Botones cantidad */
+  td:nth-child(2) {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  /* Precio */
+  td:nth-child(3),
+  td:nth-child(4) {
+    justify-content: space-between;
+  }
+
+  /* Subtotal y descuento */
+  td:nth-child(4) small {
+    font-size: 0.75rem;
+  }
+
+  /* Botón eliminar centrado */
+  td:last-child {
+    justify-content: center;
+  }
+
+  /* Total */
+  #total-carrito {
+    font-size: 1.3rem !important;
+  }
+}
+
+/* --- Recuadro de promoción --- */
+.promo-box {
+  background: #fff8e6;
+  border: 2px solid #ffcc57;
+  padding: 15px;
+  border-radius: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* --- Título de la promoción --- */
+.promo-title {
+  font-weight: 700;
+  color: #4a3e00;
+  margin-bottom: 6px;
+}
+
+/* --- Texto principal --- */
+.promo-text {
+  color: #4a3e00;
+  margin: 0;
+}
+
+/* --- Nota inferior --- */
+.promo-footnote {
+  font-size: 0.83rem;
+  color: #7a6a35;
+}
+

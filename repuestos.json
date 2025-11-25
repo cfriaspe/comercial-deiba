@@ -1,0 +1,32 @@
+[
+  {
+    "id": 3001,
+    "nombre": "Kit de Retén Hidráulico",
+    "descripcion": "Kit completo de retenes para cilindros hidráulicos. Compatible con maquinaria de construcción estándar.",
+    "precio": 34990,
+    "imagen": "img/Repuestos/Portada Repuestos.png",
+    "link": "https://www.deiba.cl/_Container_MSH-2120437701-Lubricantes",
+    "oferta": false,
+    "descuento": 0
+  },
+  {
+    "id": 3002,
+    "nombre": "Bomba Hidráulica BA-220",
+    "descripcion": "Bomba hidráulica reforzada para equipos de movimiento de tierra. Excelente durabilidad.",
+    "precio": 89990,
+    "imagen": "img/Repuestos/Portada Repuestos.png",
+    "link": "https://www.deiba.cl/_Container_MSH-2120437701-Lubricantes",
+    "oferta": false,
+    "descuento": 0
+  },
+  {
+    "id": 3003,
+    "nombre": "Juego de Mangueras de Alta Presión",
+    "descripcion": "Mangueras certificadas para operación de alto rendimiento. Resistentes a presión extrema.",
+    "precio": 45990,
+    "imagen": "img/Repuestos/Portada Repuestos.png",
+    "link": "https://www.deiba.cl/_Container_MSH-2120437701-Lubricantes",
+    "oferta": false,
+    "descuento": 0
+  }
+]

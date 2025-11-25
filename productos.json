@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "nombre": "Filtros hidráulicos y de aceite",
+    "descripcion": "Filtros de aire, aceite y combustible para maquinaria pesada, camiones y equipos industriales.",
+    "precio": 15990,
+    "imagen": "img/Portada Filtro.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Lubricantes industriales y automotrices",
+    "descripcion": "Aceites y lubricantes Mobil, Total, Lubrax y más, en formatos industriales y menores.",
+    "precio": 24990,
+    "imagen": "img/Portada Lubricante.png"
+  },
+  {
+    "id": 3,
+    "nombre": "Repuestos para maquinaria",
+    "descripcion": "Componentes y piezas para excavadoras, cargadores y maquinaria de construcción.",
+    "precio": 34990,
+    "imagen": "img/Portada Repuestos.png"
+  },
+   {
+    "id": 4,
+    "nombre": "Repuestos para maquinaria V2",
+    "descripcion": "Componentes y piezas para excavadoras, cargadores y maquinaria de construcción.",
+    "precio": 34990,
+    "imagen": "img/Portada Lubricante.png"
+  }
+
+]
