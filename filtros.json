@@ -347,7 +347,8 @@
     "imagen": "img/filtros/C_37_480.jpg",
     "precio": 64050,
     "stock": 100,
-    "categoria": "filtros"
+    "categoria": "filtros",
+    "oferta": false
   },
   {
     "id": 1034,
@@ -357,7 +358,8 @@
     "imagen": "img/filtros/CR0043sampiyon.jpg",
     "precio": 26100,
     "stock": 100,
-    "categoria": "filtros"
+    "categoria": "filtros",
+    "oferta": false
   },
   {
     "id": 1035,
@@ -377,7 +379,8 @@
     "imagen": "img/filtros/CR103sampiyon.jpg",
     "precio": 23280,
     "stock": 100,
-    "categoria": "filtros"
+    "categoria": "filtros",
+    "oferta": false
   },
   {
     "id": 1037,
@@ -387,7 +390,8 @@
     "imagen": "img/filtros/CR104sampiyon.jpg",
     "precio": 19970,
     "stock": 100,
-    "categoria": "filtros"
+    "categoria": "filtros",
+    "oferta": false
   },
   {
     "id": 1038,
@@ -397,7 +401,8 @@
     "imagen": "img/filtros/Filtrohino_xzu300.jpg",
     "precio": 47620,
     "stock": 100,
-    "categoria": "filtros"
+    "categoria": "filtros",
+    "oferta": false
   },
   {
     "id": 1039,
@@ -407,7 +412,8 @@
     "imagen": "img/filtros/filtrodonalson125003.jpg",
     "precio": 35990,
     "stock": 100,
-    "categoria": "filtros"
+    "categoria": "filtros",
+    "oferta": false
   },
   {
     "id": 1040,
@@ -417,7 +423,8 @@
     "imagen": "img/filtros/filtrodonaldsonp628203.jpg",
     "precio": 58500,
     "stock": 100,
-    "categoria": "filtros"
+    "categoria": "filtros",
+    "oferta": false
   },
   {
     "id": 1041,
@@ -427,7 +434,8 @@
     "imagen": "img/filtros/P827653.jpg",
     "precio": 33050,
     "stock": 100,
-    "categoria": "filtros"
+    "categoria": "filtros",
+    "oferta": false
   },
   {
     "id": 1042,
@@ -437,7 +445,8 @@
     "imagen": "img/filtros/P829332.jpg",
     "precio": 31780,
     "stock": 100,
-    "categoria": "filtros"
+    "categoria": "filtros",
+    "oferta": false
   },
   {
     "id": 1043,
@@ -447,7 +456,8 @@
     "imagen": "img/filtros/BaldwinP181052.jpg",
     "precio": 29800,
     "stock": 100,
-    "categoria": "filtros"
+    "categoria": "filtros",
+    "oferta": false
   },
   {
     "id": 1044,
@@ -457,7 +467,8 @@
     "imagen": "img/filtros/PA3652.jpg",
     "precio": 93990,
     "stock": 100,
-    "categoria": "filtros"
+    "categoria": "filtros",
+    "oferta": false
   },
   {
     "id": 1045,
@@ -467,7 +478,8 @@
     "imagen": "img/filtros/P628328.jpg",
     "precio": 64240,
     "stock": 100,
-    "categoria": "filtros"
+    "categoria": "filtros",
+    "oferta": false
   },
   {
     "id": 1046,
@@ -477,7 +489,8 @@
     "imagen": "img/filtros/10000-51231.jpg",
     "precio": 23530,
     "stock": 100,
-    "categoria": "filtros"
+    "categoria": "filtros",
+    "oferta": false
   },
   {
     "id": 1047,
@@ -487,7 +500,8 @@
     "imagen": "img/filtros/10000-59651.jpg",
     "precio": 24780,
     "stock": 100,
-    "categoria": "filtros"
+    "categoria": "filtros",
+    "oferta": false
   },
   {
     "id": 1048,
@@ -497,7 +511,8 @@
     "imagen": "img/filtros/10000-70419.jpg",
     "precio": 44100,
     "stock": 100,
-    "categoria": "filtros"
+    "categoria": "filtros",
+    "oferta": false
   },
   {
     "id": 1049,
@@ -507,7 +522,8 @@
     "imagen": "img/filtros/129242-55730.jpg",
     "precio": 25770,
     "stock": 100,
-    "categoria": "filtros"
+    "categoria": "filtros",
+    "oferta": false
   },
   {
     "id": 1050,
@@ -517,7 +533,8 @@
     "imagen": "img/filtros/160603020033B.jpg",
     "precio": 13700,
     "stock": 100,
-    "categoria": "filtros"
+    "categoria": "filtros",
+    "oferta": false
   },
   {
     "id": 1051,
@@ -527,7 +544,8 @@
     "imagen": "img/filtros/160603020043B.jpg",
     "precio": 52000,
     "stock": 100,
-    "categoria": "filtros"
+    "categoria": "filtros",
+    "oferta": false
   },
   {
     "id": 1052,
@@ -537,7 +555,8 @@
     "imagen": "img/filtros/1930836-O.jpg",
     "precio": 84600,
     "stock": 100,
-    "categoria": "filtros"
+    "categoria": "filtros",
+    "oferta": false
   },
   {
     "id": 1053,
@@ -547,7 +566,8 @@
     "imagen": "img/filtros/23B127177.jpg",
     "precio": 32320,
     "stock": 100,
-    "categoria": "filtros"
+    "categoria": "filtros",
+    "oferta": false
   },
   {
     "id": 1054,
@@ -557,7 +577,8 @@
     "imagen": "img/filtros/23H127177.jpg",
     "precio": 68540,
     "stock": 100,
-    "categoria": "filtros"
+    "categoria": "filtros",
+    "oferta": false
   },
   {
     "id": 1055,
@@ -567,26 +588,183 @@
     "imagen": "img/filtros/28130M100.jpg",
     "precio": 69700,
     "stock": 100,
-    "categoria": "filtros"
+    "categoria": "filtros",
+    "oferta": false
   },
   {
     "id": 1056,
-    "nombre": "Filtro Aire Cabina",
-    "descripcion": "Filtro Aire Cabina diseñado para ofrecer alta eficiencia de filtración y proteger el motor en condiciones exigentes.",
+    "nombre": "CAT 311-3901 – Separador de Agua y Combustible (Ultra Alta Eficiencia)",
+    "descripcion": "CAT 311-3901 es un separador de agua y combustible de ultra alta eficiencia, diseñado para brindar máxima protección al sistema de inyección. Su tecnología filtrante avanzada retiene agua, sedimentos y contaminantes presentes en el diésel, asegurando un flujo limpio, mejor combustión y menor desgaste del motor. Construido con los estándares de calidad CAT, ofrece durabilidad, gran capacidad de retención y desempeño confiable en maquinaria de trabajo pesado.",
     "medidas": "",
-    "imagen": "img/filtros/filtro-aire-cabina.jpg",
-    "precio": 116161,
+    "imagen": "img/filtros/311-3901.jpg",
+    "precio": 95420,
     "stock": 100,
-    "categoria": "filtros"
+    "categoria": "filtros",
+    "oferta": false
   },
   {
     "id": 1057,
-    "nombre": "Filtro Aire Cabina",
-    "descripcion": "Filtro Aire Cabina diseñado para ofrecer alta eficiencia de filtración y proteger el motor en condiciones exigentes.",
+    "nombre": "31LM-10310 – Filtro de Línea de Freno",
+    "descripcion": "El filtro 31LM-10310 está diseñado para la línea de freno, asegurando una filtración precisa y confiable del fluido para mantener la presión y el rendimiento del sistema. Su construcción resistente y su medio filtrante de alta eficiencia ayudan a evitar la entrada de impurezas, reducen el desgaste de los componentes y garantizan un funcionamiento seguro y estable en todo momento. Ideal para maquinaria de trabajo exigente.",
     "medidas": "",
-    "imagen": "img/filtros/filtro-aire-cabina.jpg",
-    "precio": 57254,
+    "imagen": "img/filtros/31LM-10310.jpg",
+    "precio": 82740,
     "stock": 100,
-    "categoria": "filtros"
+    "categoria": "filtros",
+    "oferta": false
+  },
+  {
+    "id": 1058,
+    "nombre": "31LM-69041 – Filtro Hidráulico",
+    "descripcion": "El filtro hidráulico 31LM-69041 está diseñado para ofrecer una filtración fina y estable dentro del sistema hidráulico, eliminando partículas y contaminantes que pueden provocar desgaste o fallas en los componentes. Su medio filtrante de alta eficiencia asegura un flujo de aceite limpio, mayor protección del sistema y un rendimiento óptimo incluso en condiciones de trabajo intensivo. Construcción robusta, larga vida útil y ajuste confiable para maquinaria pesada.",
+    "medidas": "",
+    "imagen": "img/filtros/31LM-69041.jpg",
+    "precio": 31910,
+    "stock": 100,
+    "categoria": "filtros",
+    "oferta": false
+  },
+  {
+    "id": 1059,
+    "nombre": "31U2-60192 – Filtro de Retorno (H930C)",
+    "descripcion": "El filtro de retorno 31U2-60192 para modelo H930C está diseñado para mantener el sistema hidráulico protegido, capturando partículas y contaminantes presentes en el aceite de retorno. Su medio filtrante de alta eficiencia asegura un flujo limpio hacia el depósito, reduciendo el desgaste de componentes y mejorando la vida útil del sistema. Construcción robusta, rendimiento confiable y ajuste preciso para maquinaria de trabajo pesado.",
+    "medidas": "",
+    "imagen": "img/filtros/31U2-60192.jpg",
+    "precio": 67890,
+    "stock": 100,
+    "categoria": "filtros",
+    "oferta": false
+  },
+  {
+    "id": 1060,
+    "nombre": "CAT 322-3155 – Conjunto de Elemento de Filtro",
+    "descripcion": "El CAT 322-3155 es un conjunto de elemento filtrante diseñado para ofrecer máxima protección a los sistemas de motor e hidráulicos en maquinaria CAT. Su medio filtrante de alta eficiencia retiene partículas finas, suciedad y contaminantes que pueden causar desgaste prematuro, asegurando un funcionamiento limpio, estable y prolongando la vida útil de los componentes. Fabricado bajo los estándares originales de Caterpillar, garantiza ajuste perfecto, rendimiento confiable y durabilidad incluso en condiciones de trabajo pesado.",
+    "medidas": "",
+    "imagen": "img/filtros/322-3155.jpg",
+    "precio": 46270,
+    "stock": 100,
+    "categoria": "filtros",
+    "oferta": false
+  },
+  {
+    "id": 1061,
+    "nombre": "360260A2 – Filtro de Aire de Cabina",
+    "descripcion": "l filtro de aire de cabina 360260A2 está diseñado para mantener el interior de la maquinaria limpio y seguro, reteniendo polvo, polen y partículas finas presentes en el ambiente de trabajo. Su medio filtrante de alta eficiencia mejora la calidad del aire para el operador, reduciendo la exposición a contaminantes y asegurando un entorno más cómodo y saludable. Fabricado con materiales resistentes, ofrece un ajuste preciso y un rendimiento confiable incluso en condiciones de trabajo exigentes.",
+    "medidas": "",
+    "imagen": "img/filtros/360260A2.jpg",
+    "precio": 122380,
+    "stock": 100,
+    "categoria": "filtros",
+    "oferta": false
+  },
+  {
+    "id": 1062,
+    "nombre": "Komatsu 42N-04 / 11860 – Filtro de Combustible",
+    "descripcion": "El filtro de combustible 42N-04 / 11860 para maquinaria Komatsu está diseñado para ofrecer una filtración eficiente y confiable, reteniendo sedimentos, agua e impurezas presentes en el diésel. Su medio filtrante de alta calidad protege el sistema de inyección, mejora la combustión y prolonga la vida útil del motor, incluso en condiciones de trabajo intensivo. Con construcción robusta y ajuste preciso, asegura un rendimiento estable y protección superior para equipos Komatsu.",
+    "medidas": "",
+    "imagen": "img/filtros/42N-04.jpg",
+    "precio": 55460,
+    "stock": 100,
+    "categoria": "filtros",
+    "oferta": false
+  },
+  {
+    "id": 1063,
+    "nombre": "4329012232 – Filtro Secador de Aire Volkswagen",
+    "descripcion": "El filtro secador de aire 4329012232 para vehículos y maquinaria Volkswagen está diseñado para eliminar eficazmente humedad, aceite y partículas del sistema neumático, evitando corrosión y fallas en componentes críticos. Su medio filtrante de alta eficiencia asegura aire seco y limpio, mejorando el rendimiento del sistema de frenos y extendiendo la vida útil de válvulas y líneas de aire. Construcción robusta, larga durabilidad y ajuste preciso para un funcionamiento seguro y confiable en condiciones exigentes.",
+    "medidas": "",
+    "imagen": "img/filtros/4329012232.jpg",
+    "precio": 53600,
+    "stock": 100,
+    "categoria": "filtros",
+    "oferta": true
+  },
+  {
+    "id": 1064,
+    "nombre": "CNH 47362223 – Filtro de Aire Primario (New Holland 570 / 575)",
+    "descripcion": "El filtro de aire primario CNH 47362223 está diseñado para los modelos New Holland 570 y 575, ofreciendo una filtración de alta eficiencia que retiene polvo y partículas finas incluso en ambientes agrícolas exigentes. Su medio filtrante de gran capacidad asegura una admisión de aire limpia, mejor combustión y mayor protección del motor. Fabricado con estándares CNH, garantiza ajuste perfecto, durabilidad y rendimiento confiable en jornadas de trabajo intensivo.",
+    "medidas": "",
+    "imagen": "img/filtros/47362223.jpg",
+    "precio": 60970,
+    "stock": 100,
+    "categoria": "filtros",
+    "oferta": false
+  },
+  {
+    "id": 1065,
+    "nombre": "CNH 47362227 – Filtro de Aire Secundario",
+    "descripcion": "El filtro de aire secundario CNH 47362227 está diseñado para complementar la filtración primaria en los modelos New Holland 570, 575 y ST, reteniendo las partículas más finas que podrían llegar al motor. Su medio filtrante de alta eficiencia asegura una admisión de aire más limpia, mejor combustión y mayor protección interna del motor. Fabricado bajo los estándares de calidad CNH, ofrece ajuste perfecto, durabilidad y un desempeño confiable en trabajos agrícolas exigentes.",
+    "medidas": "",
+    "imagen": "img/filtros/47362227.jpg",
+    "precio": 41430,
+    "stock": 100,
+    "categoria": "filtros",
+    "oferta": true
+  },
+   {
+    "id": 1066,
+    "nombre": "47484442 – Filtro de Transmisión (Original 570SN)",
+    "descripcion": "El filtro de transmisión 47484442 es un repuesto original diseñado para el modelo 570SN, garantizando una filtración precisa del fluido hidráulico y de transmisión. Su medio filtrante de alta eficiencia retiene contaminantes finos que pueden causar desgaste, asegurando cambios más suaves, menor temperatura de trabajo y mayor vida útil de los componentes internos. Fabricado bajo los estándares de calidad CNH, ofrece ajuste perfecto, durabilidad superior y rendimiento confiable en aplicaciones de trabajo pesado.",
+    "medidas": "",
+    "imagen": "img/filtros/47484442.jpeg",
+    "precio": 134000,
+    "stock": 100,
+    "categoria": "filtros",
+    "oferta": false
+  },
+   {
+    "id": 1067,
+    "nombre": "",
+    "descripcion": "",
+    "medidas": "",
+    "imagen": "img/filtros/.jpg",
+    "precio": 46270,
+    "stock": 100,
+    "categoria": "filtros",
+    "oferta": false
+  },
+   {
+    "id": 1068,
+    "nombre": "",
+    "descripcion": "",
+    "medidas": "",
+    "imagen": "img/filtros/.jpg",
+    "precio": 46270,
+    "stock": 100,
+    "categoria": "filtros",
+    "oferta": false
+  },
+   {
+    "id": 1069,
+    "nombre": "",
+    "descripcion": "",
+    "medidas": "",
+    "imagen": "img/filtros/.jpg",
+    "precio": 46270,
+    "stock": 100,
+    "categoria": "filtros",
+    "oferta": false
+  },
+   {
+    "id": 1070,
+    "nombre": "",
+    "descripcion": "",
+    "medidas": "",
+    "imagen": "img/filtros/.jpg",
+    "precio": 46270,
+    "stock": 100,
+    "categoria": "filtros",
+    "oferta": false
+  },
+   {
+    "id": 1071,
+    "nombre": "",
+    "descripcion": "",
+    "medidas": "",
+    "imagen": "img/filtros/.jpg",
+    "precio": 46270,
+    "stock": 100,
+    "categoria": "filtros",
+    "oferta": false
   }
 ]
