@@ -411,5 +411,19 @@
     "oferta": true,
     "descuento": 10,
     "stock": 100
+  },
+    {
+    "id": 2040,
+    "nombre": "Aceite Hidráulico TOTAL AW ISO 68 – 208 Litros",
+    "descripcion": "El aceite hidráulico TOTAL AW ISO 68 está formulado para entregar una lubricación superior, excelente estabilidad térmica y protección contra desgaste en sistemas hidráulicos de maquinaria industrial y pesada. Su aditivación antidesgaste (AW) garantiza un funcionamiento suave, menor fricción y alta resistencia a la oxidación, incluso bajo trabajo intensivo y altas temperaturas. En presentación tambor 208 litros, es ideal para flotas, talleres y equipos que requieren rendimiento confiable, larga vida útil y máxima protección en sus sistemas hidráulicos.",
+    "precio": 601850,
+    "imagen": "img/Repuestos/nodisponible2.jpg",
+    "link": "",
+    "categoria": "lubricantes",
+    "oferta": true,
+    "descuento": 10,
+    "stock": 100
   }
+  
+
 ]

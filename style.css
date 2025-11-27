@@ -548,3 +548,109 @@ body {
   color: #7a6a35;
 }
 
+/* ========================================================= */
+/* 🎯 FIX — SECCIÓN SOBRE NOSOTROS */
+/* ========================================================= */
+
+.about-section-pro {
+  position: relative;
+  padding: 140px 20px 100px;   /* top separado del navbar */
+  text-align: center;
+  background: linear-gradient(180deg, #000 0%, #1a1a1a 40%, #000 100%);
+  border-bottom: 2px solid #F59C1A;
+  min-height: 60vh;           /* evita el efecto de "espacio enorme" */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-section-pro .content-box {
+  max-width: 900px;
+  margin: auto;
+  z-index: 2;
+}
+
+.about-section-pro .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 1;
+}
+
+/* Texto mejor balanceado */
+.about-section-pro p {
+  font-size: 1.15rem;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-section-pro {
+    padding: 120px 20px 80px;
+  }
+
+  .about-section-pro p {
+    font-size: 1rem;
+  }
+}
+
+/* ========================================================= */
+/* 🎯 SECCIÓN SOBRE NOSOTROS — VERSIÓN PREMIUM CON MAQUINARIA */
+/* ========================================================= */
+.about-section-pro {
+  position: relative;
+  padding: 160px 20px 130px;
+  text-align: center;
+  color: #fff;
+
+  /* 🔥 Fondo PRO con maquinaria */
+  background-image: url("img/.jpg");
+  background-size: cover;            /* ocupa todo sin cajas */
+  background-position: center 20%;   /* baja la imagen = sin zoom en la parte fea */
+  background-repeat: no-repeat;
+  background-attachment: fixed;      /* efecto profesional */
+
+  border-bottom: 2px solid #F59C1A;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+/* Capa oscura elegante */
+.about-section-pro::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  backdrop-filter: blur(1px);
+  z-index: 1;
+}
+
+.about-section-pro .content-box {
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Texto */
+.about-section-pro p {
+  font-size: 1.18rem;
+  line-height: 1.55;
+  margin-bottom: 18px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-section-pro {
+    padding: 130px 15px 90px;
+    background-attachment: scroll;  /* mejora en móviles */
+    background-position: center 10%;
+  }
+
+  .about-section-pro p {
+    font-size: 1rem;
+  }
+}
