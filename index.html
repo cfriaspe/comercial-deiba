@@ -62,7 +62,28 @@
 </nav>
 
 <!-- HERO -->
-<header class="hero-img"></header>
+<!-- ========================================================= -->
+<!-- 🎉 HERO CARRUSEL – PRODUCTOS DESTACADOS -->
+<!-- ========================================================= -->
+
+<section id="hero" class="hero-carousel">
+  <div id="carouselPromos" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-inner" id="promo-slides"></div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPromos" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselPromos" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+
+  </div>
+</section>
+
+
+
 
 <!-- CATALOGO -->
 <section id="productos" class="py-5 text-center text-white">
@@ -196,6 +217,38 @@ function agregarAlCarrito(id, nombre, precio, imagen, oferta = false, descuento 
   // ⏯️ Al cargar la página, sincronizamos el contador con lo que haya en localStorage
   document.addEventListener("DOMContentLoaded", actualizarContadorCarrito);
 </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  fetch("promos.json")
+    .then(res => res.json())
+    .then(promos => {
+
+      const slides = document.getElementById("promo-slides");
+
+      slides.innerHTML = ""; // Limpia por si acaso
+
+      promos.forEach((promo, index) => {
+
+        slides.innerHTML += `
+          <div class="carousel-item ${index === 0 ? 'active' : ''}">
+            
+            <div class="hero-banner"
+                 style="background-image: url('${promo.imagen}')"
+                 onclick="location.href='${promo.link}'">
+            </div>
+
+          </div>
+        `;
+      });
+
+    })
+    .catch(err => console.error("Error cargando promos.json:", err));
+});
+</script>
+
+
 
 
 </body>

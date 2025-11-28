@@ -1,0 +1,51 @@
+[
+ {
+  "id": 1,
+  "titulo": "15W40 Aceite Motor Rubia Tir 7400 20Lt Total",
+  "descripcion": "Oferta especial al llevar 2 o más unidades.",
+  "precio": "79.900 c/u",
+  "imagen": "img/promos/promo1.jpg",
+  "link": "lubricantes.html"
+ },
+
+  {
+    "id": 2,
+    "titulo": "promo filtros",
+    "descripcion": "Ideal para maquinaria pesada",
+    "precio": "19.990",
+    "imagen": "img/promos/promo2.jpg",
+    "link": "filtros.html"
+  },
+  {
+    "id": 3,
+    "titulo": "promo repuestos",
+    "descripcion": "Disponibilidad inmediata",
+    "precio": "Oferta",
+    "imagen": "img/promos/promo3.jpg",
+    "link": "repuestos.html"
+  },
+    {
+    "id": 4,
+    "titulo": "promo4",
+    "descripcion": "Disponibilidad inmediata",
+    "precio": "Oferta",
+    "imagen": "img/promos/promo4.jpg",
+    "link": "repuestos.html"
+  },
+    {
+    "id": 5,
+    "titulo": "promo5",
+    "descripcion": "Disponibilidad inmediata",
+    "precio": "Oferta",
+    "imagen": "img/promos/promo5.jpg",
+    "link": "repuestos.html"
+  },
+  {
+    "id": 6,
+    "titulo": "promo6",
+    "descripcion": "Disponibilidad inmediata",
+    "precio": "Oferta",
+    "imagen": "img/promos/promo6.jpg",
+    "link": "repuestos.html"
+  }
+]
